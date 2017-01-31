@@ -1,0 +1,81 @@
+body{
+	background-image:url(http://www.niceimage.ru/pic/201304/1920x1080/niceimage.ru-10881.jpg);
+	background-size:cover;
+	background-attachment:fixed
+}
+nav a{
+	border: 1px solid;
+	text-decoration:none;
+	padding:1vmin;
+	margin-top:5vmin;
+	margin-bottom:5vmin;
+	line-height:8vmin;
+	white-space: nowrap;
+	background-color:LightSkyBlue;
+	
+}
+a:hover { background: SteelBlue; }
+a:active { background: SteelBlue; } 
+nav ul{
+	width:90%;
+	list-style-type:none;
+}
+nav ul li{
+	display:inline;
+}
+h1,h2,h3,h4{
+	text-align:center;
+	color:LightSalmon;
+}
+h1+p{
+	text-align:center;
+}
+#two,#four,#six{
+	background-color:Lavender;
+}
+div{
+	background-color:Plum;
+	text-align:justify;
+	width:90%;
+	margin:auto;
+	padding:2vmin;
+	border: 3px dashed;
+}
+div h3{
+	color:black;
+}
+div div{
+	text-align:right;
+	background-color:Thistle;
+	font-style:italic;
+	border: 1px solid;
+}
+#voy{
+	text-align:right;
+}
+span a{
+	border: 1px solid;
+	text-decoration:none;
+	padding:1vmin;
+	margin-top:5vmin;
+	margin-bottom:5vmin;
+	line-height:8vmin;
+	white-space: nowrap;
+	background-color:LightSkyBlue;
+}
+.pict1{
+	text-align:center; 
+	
+}
+img{
+	height:60vmin;
+}
+footer{
+	float:right;
+	background-color:MediumPurple;
+	font-style:oblique;
+	border: 1px solid;
+	width:50vmin;
+	padding:2vmin;
+	text-align:right;
+}
